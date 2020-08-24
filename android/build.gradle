@@ -75,6 +75,8 @@ dependencies {
     //noinspection GradleDynamicVersion
     implementation 'com.facebook.react:react-native:+'  // From node_modules
     implementation group: 'com.zopim.android', name: 'sdk', version: '1.4.6'
+    implementation group: 'com.zendesk', name: 'chat', version: '2.0.0'
+    implementation group: 'com.zendesk', name: 'messaging', version: '4.2.1'
 
 }
 
