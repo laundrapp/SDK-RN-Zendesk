@@ -1,7 +1,7 @@
 {
   "name": "react-native-rn-zendesk",
   "title": "React Native Rn Zendesk",
-  "version": "1.1.5",
+  "version": "1.1.2",
   "description": "React native zendesk chat",
   "main": "index.js",
   "scripts": {
