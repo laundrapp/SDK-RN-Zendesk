@@ -16,19 +16,17 @@ Zopim Chat from Zendesk for React Native.
 
 Configure `ZopimChat` in `android/app/main/java/[...]/MainActivity.java`
 
-```
+```java
 ZopimChat.init("YOUR_ZENDESK_ACCOUNT_KEY").build();
 ```
 
-```
 Add  maven { url 'https://zendesk.jfrog.io/zendesk/repo' } in build.gradle repository (android level not app level)
-```
 
 ### IOS
 
 Configure `ZDCChat` in `AppDelegate.m`:
 
-```
+```objectivec
 #import <ZDCChat/ZDCChat.h>
 
 [ZDCChat initializeWithAccountKey:@"YOUR_ZENDESK_ACCOUNT_KEY"];
@@ -36,8 +34,10 @@ Configure `ZDCChat` in `AppDelegate.m`:
 
 ## Usage
 
-```javascript
+```js
 import RnZendesk from "react-native-rn-zendesk";
+
+RnZeendesk.init(yourkey);
 
 RnZendesk.startChat({
   name: user.full_name,
