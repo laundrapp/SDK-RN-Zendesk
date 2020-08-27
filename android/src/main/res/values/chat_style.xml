@@ -1,0 +1,31 @@
+<resources>
+    <!-- Base chat sdk theme. -->
+    <style name="ZopimChatTheme" parent="ZopimChatTheme.Light">
+        <!-- Customize chat theme here. -->
+        <item name="colorAccent">#FF0000</item>
+        <item name="colorPrimary">#FF0000</item>
+        <item name="colorPrimaryDark">#FF0000</item>
+    </style>
+
+    <style name="no_agents_button">
+        <item name="android:background">#FF0000</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!--Customize toolbar that replaces action bar-->
+    <style name="zopim_toolbar">
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="android:minHeight">?attr/actionBarSize</item>
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Dark</item>
+    </style>
+
+    <!--Customize where chat widget appears-->
+    <style name="chat_widget" parent="_chat_widget">
+        <item name="anchor">bottom_left</item>
+    </style>
+
+    <!--Customize chat colors-->
+    <color name="chat_bubble_visitor">#FF0000</color>
+</resources>
