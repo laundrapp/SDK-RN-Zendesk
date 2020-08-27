@@ -1,10 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+    <style name="AppTheme" parent="Theme.AppCompat">
         <!-- Customize your theme here. -->
         <item name="android:textColor">#FF0000</item>
         <item name="colorPrimary">#FF0000</item>
         <item name="colorPrimaryDark">#FF0000</item>
         <item name="colorAccent">#FF0000</item>
+        <item name="android:statusBarColor">#FF0000</item>
     </style>
 </resources>
