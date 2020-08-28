@@ -19,6 +19,7 @@ Pod::Spec.new do |s|
   s.source_files = "ios/**/*.{h,m,swift}"
   s.requires_arc = true
   s.dependency "ZDCChat"
+  s.dependency "SDK-RN-Zendesk"
   s.dependency "React"
 
   # ...
